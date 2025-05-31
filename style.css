@@ -1,0 +1,492 @@
+* {
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #0B0016;
+   font-family: "Questrial", sans-serif;
+}
+
+#pag1 {
+   background-image: url(h1_hero1.jpg.webp);
+   background-color: rgba(0, 0, 0, 45%);
+   background-blend-mode: multiply;
+   background-size: cover;
+   height: 110vh;
+   position: relative;
+}
+
+.logo {
+   margin-left: 9%;
+   margin-top: 4vh;
+   vertical-align: middle;
+   margin-bottom: 4vh;
+}
+
+.tel {
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   margin-left: 40%;
+}
+
+.btn_free {
+   padding: 14px 24px;
+   background-color: #D6A04C;
+   color: white;
+   text-decoration: none;
+   margin-left: 2%;
+}
+
+.icons {
+   display: inline-block;
+   width: 60px;
+   margin-left: 2%;
+   height: 46px;
+   position: absolute;
+   left: 83%;
+   bottom: 90%;
+}
+
+.icons span {
+   border: solid 1px white;
+   display: inline-block;
+   width: 40px;
+   margin: auto;
+   margin-top: 8px;
+}
+
+#icon_barras {
+   display: inline-block;
+   width: 60px;
+   margin-left: 2%;
+   height: 46px;
+}
+
+#icon_barras span {
+   border: solid 1px white;
+   display: inline-block;
+   width: 40px;
+   margin: auto;
+   margin-top: 8px;
+}
+
+.texto {
+   position: absolute;
+   top: 300px;
+   left: 300px;
+   z-index: 5;
+   color: white;
+   line-height: 1.5;
+}
+
+h3 {
+   font-size: 60px;
+}
+
+button {
+   width: 70px;
+   height: 70px;
+   border-radius: 80px;
+   position: absolute;
+   left: 130%;
+   top: -25px;
+}
+
+.btnplay {
+   width: 40px;
+   height: 40px;
+   top: 50%;
+   right: 50%;
+}
+
+.iconvideo :hover {
+   background-color: #D6A04C;
+   color: white;
+   transition: 0.45s;
+}
+
+.iconvideo {
+   position: absolute;
+   left: 1160px;
+   top: 50%;
+   color: #fff;
+   font-size: 50px;
+   margin: 0;
+   display: inline-block;
+   margin-right: 100px;
+}
+
+.about {
+   font-size: 50px;
+   color: #fff;
+   position: absolute;
+   top: 1200px;
+   left: 150px;
+}
+
+.fr2 {
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 1300px;
+   left: 200px;
+}
+
+.fr3 {
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 1340px;
+   left: 200px;
+}
+
+.fr4 {
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 1380px;
+   left: 200px;
+}
+
+.fr5 {
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 1420px;
+   left: 200px;
+}
+
+.fr6 {
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 1460px;
+   left: 200px;
+}
+
+.imghomem {
+   position: absolute;
+   top: 1550px;
+   left: 200px;
+}
+
+.fr7 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   top: 1310px;
+   left: 800px;
+}
+
+.fr8 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   top: 1340px;
+   left: 800px;
+}
+
+.fr9 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   top: 1370px;
+   left: 800px;
+}
+
+.fr10 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   top: 1400px;
+   left: 800px;
+}
+
+.fr11 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   top: 1430px;
+   left: 800px;
+}
+
+.fr12 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   top: 1460px;
+   left: 800px;
+}
+
+.fr13 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   top: 1490px;
+   left: 800px;
+}
+
+.learnmore {
+   height: 50px;
+   border: solid 1px orange;
+   position: absolute;
+   top: 1550px;
+   left: 800px;
+   padding: 14px 24px;
+   color: white;
+}
+
+.learnmore:hover {
+   background-color: #D6A04C;
+   transition: 0.5s;
+}
+
+.img2 {
+   position: absolute;
+   top: 1650px;
+   left: 800px;
+}
+
+.fr14 {
+   font-size: 50px;
+   color: #fff;
+   position: absolute;
+   top: 2100px;
+   left: 300px;
+}
+
+.triangulo {
+   position: absolute;
+   top: 2200px;
+   left: 300px;
+}
+
+.triangulo2 {
+   position: absolute;
+   top: 2200px;
+   left: 750px;
+}
+
+.triangulo3 {
+   position: absolute;
+   top: 2200px;
+   left: 1200px;
+}
+
+.fr15 {
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 2580px;
+   left: 300px;
+}
+
+.fr16 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   top: 2630px;
+   left: 300px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.fr17 {
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 2580px;
+   left: 750px;
+}
+
+.fr18 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   top: 2630px;
+   left: 750px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.fr19 {
+   font-size: 30px;
+   color: #fff;
+   position: absolute;
+   top: 2580px;
+   left: 1200px;
+}
+
+.fr20 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   top: 2630px;
+   left: 1200px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.Amarelo {
+   background-color: #ffc107;
+   height: 112px;
+   width: 750px;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+.mouse{
+   position: absolute;
+   left: 500px;
+   margin: -200px;
+   width: 100px;
+   height: 100px;
+   
+}
+
+.A1 {
+   margin-left: 5%;
+}
+
+.A2 {
+   margin-left: 5%;
+}
+
+.am1 {
+   display: block;
+   width: 300px;
+   height: 50px;
+   margin-left: 10px;
+   margin-top: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+   color: white;
+}
+
+.am2 {
+   position: absolute;
+   left: 330px;
+   top: 30px;
+   height: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+   color: white;
+}
+
+#projectbutton {
+   background-color: #D6A04C;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   position: absolute;
+   left: 85%;
+   bottom: 30%;
+}
+
+#imgseta {
+   width: 30px;
+   margin-left: 13px;
+   margin-top: 14px;
+
+}
+
+#projects {
+   background-color: rgb (107, 107, 107);
+   height: 96vh;
+}
+
+#titleprojects {
+   font-size: 215px;
+   -webkit-text-stroke: 1px white;
+   -webkit-text-fill-color: transparent;
+   position: absolute;
+   bottom: -205%;
+   left: 285px;
+   z-index: 1;
+}
+
+#imgproject {
+   width: 1100px;
+   position: absolute;
+   left: 15%;
+   bottom: -256%;
+   z-index: 2;
+}
+
+#casalaperla {
+   margin: 0px 0px 30px;
+   padding: 30px;
+   color: white;
+   width: 700px;
+   height: 195px;
+   z-index: 3;
+   background-color: #D6A04C;
+   position: absolute;
+   left: 15%;
+   bottom: -265%;
+   transition: 0.5s;
+}
+#casalaperla:hover{
+   background-color: rgb(54,54,54);
+   color: #D6A04C;
+
+   #laperla {
+      color: white;
+   }
+}
+#casalaperladescription{
+   font-size: 32px;
+}
+#laperla{
+   font-size: 14px;
+   margin-top: 40px;
+}
+.pag4{
+   height: 920px;
+}
+.fr22{
+   color: #fff;
+   font-size: 30px;
+   top: 4330px;
+   left: 1000px;
+   position: absolute;
+}
+.fr23{
+   color: #fff;
+   font-size: 30px;
+   top: 4370px;
+   left: 1000px;
+   position: absolute;
+}
+
+.fr24{
+   color: #fff;
+   font-size: 30px;
+   top: 4410px;
+   left: 1000px;
+   position: absolute;
+}
+
+.fr25{
+   color: #fff;
+   font-size: 30px;
+   top: 4440px;
+   left: 1000px;
+   position: absolute;
+}
+
+.fr26{
+   color: #fff;
+   font-size: 30px;
+   top: 4470px;
+   left: 1000px;
+   position: absolute;
+}
+
+.fr27{
+   color: #fff;
+   font-size: 30px;
+   top: 4500px;
+   left: 1000px;
+   position: absolute;
+}
+
